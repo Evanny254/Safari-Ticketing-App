@@ -21,9 +21,6 @@ const Home = ({ userRole, events }) => {
               <Link to="/create-event" className="create-event-button">
                 Create Event
               </Link>
-              <Link to="/delete-event" className="delete-event-button">
-                Delete Event
-              </Link>
             </>
           )}
         </div>
