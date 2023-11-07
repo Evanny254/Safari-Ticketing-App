@@ -32,6 +32,7 @@ const EventList = () => {
   return (
     <div>
       <h2>Upcoming Events</h2>
+      <p>Buy tickets in advance to popular events</p>
       {events.map((event) => (
         <div className='EventCard' key={event.id}>
           <h3>{event.name}</h3>
