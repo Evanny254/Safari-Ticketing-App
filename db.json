@@ -1,0 +1,308 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "The Scars of Betrayal",
+      "description": "Jabali Christian schools, presents an epic story, a mashup of talent and passion, A Mashujaa Day Production, ready for your taking. Presenting, 'The Scars of Betrayal ' a story of the sacrifice and pain endured by our African heroes and heroines in the struggle for independence. The history of the African continent comes alive through the voices and faces of the cast featuring the unrelenting colonial masters, the brave Mau Mau fighters, the helpless slaves in a thrilling tale of twists and turns. The stage is set, opening doors on Friday 10th November, 2023 @ 2pm and another show at 5pm. By buying this ticket and attending the 'Scars of Betrayal' play, you waive and release any claims you may have relating to the use of recorded media of yourself and your child at the play, including without limitation, any right to inspect or approve the photos, videos, or audio recordings, as well as any claims for invasion of privacy, violation of the right of publicity, defamation, and copyright infringement or for any fees for use of such recorded media. Save the date! Save a Seat!",
+      "date": "2023-12-15",
+      "time": "19:00",
+      "venue": "Theater Hall",
+      "location": "City Center, Example City",
+      "image_url": "Images/Jabali.jpg",
+      "host": "JABALI CHRISTIAN SCHOOLS",
+      "tickets_available": 15,
+      "ticket_price": 5,
+      "contact_email": "talktous@jabali.ac.ke",
+      "contact_phone": "+254 (780) 316-000",
+      "tags": [
+        "drama",
+        "theater",
+        "performance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Masquerade Ball by Mr and Miss USIU",
+      "description": "Join us for the glamorous Masquerade Ball hosted by Mr and Miss USIU. It's an evening of elegance, mystery, and fun. Come dressed in your finest Masquerade and Evening Wear.",
+      "date": "2023-11-09",
+      "time": "18:00 - 23:59",
+      "venue": "Broadwalk Mall Ballroom",
+      "location": "Broadwalk Mall, Example City",
+      "host": "Mr and Miss USIU",
+      "image_url": "Images/USIU.jpg",
+      "tickets_available": 28,
+      "ticket_price": 3,
+      "contact_email": "info@mrmissusiu.com",
+      "contact_phone": "+254 (730) 116-000",
+      "tags": [
+        "masquerade",
+        "evening wear",
+        "elegance"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Canine and Kenyan Celebration by KSPCA",
+      "description": "Celebrating All things canine and all things Kenya. Please note: All dogs must have a leash and a valid vaccination card.",
+      "date": "2023-11-12",
+      "time": "10:00 - 18:00",
+      "venue": "Ngong Racecourse",
+      "location": "Ngong, Kenya",
+      "host": "KSPCA",
+      "image_url": "Images/KSPCA.jpg",
+      "tickets_available": 50,
+      "ticket_price": 5,
+      "contact_email": "info@kspca.org",
+      "contact_phone": "+254 (0) 123-456-789",
+      "tags": [
+        "canine",
+        "Kenya",
+        "celebration"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "RX Motorsport Kenya Rally",
+      "description": "Join us for the thrilling RX Motorsport Kenya Rally at Kasarani Sports Complex. Experience high-speed racing action and adrenaline-pumping moments. Don't miss out on the excitement!",
+      "date": "2023-11-19",
+      "time": "08:00 - 18:00",
+      "venue": "Kasarani Sports Complex",
+      "location": "Kasarani, Kenya",
+      "host": "RX MOTORSPORT KENYA MANAGEMENT LTD",
+      "image_url": "Images/RX Mtosport.jpg",
+      "tickets_available": 10,
+      "ticket_price": 10,
+      "contact_email": "info@rxmotorsportkenya.com",
+      "contact_phone": "+254 (0) 987-654-321",
+      "tags": [
+        "rally",
+        "motorsport",
+        "adrenaline"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Club Kiboko Festival",
+      "description": "Learn, play, and have fun together. Join us at the Club Kiboko Festival for a day of family entertainment, games, and lots of giveaways. By buying this ticket and attending the Club Kiboko Festival event, you waive and release any claims you may have relating to the use of recorded media of yourself and your child at the Club Kiboko Festival, including without limitation, any right to inspect or approve the photos, videos, or audio recordings, as well as any claims for invasion of privacy, violation of the right of publicity, defamation, and copyright infringement or for any fees for use of such recorded media.",
+      "date": "2023-11-18",
+      "time": "09:00 - 17:00",
+      "venue": "Ulinzi Sports Complex",
+      "location": "Langata, Kenya",
+      "host": "The Standard Group Plc",
+      "image_url": "Images/Club kiboko.jpg",
+      "tickets_available": 15,
+      "ticket_price": 5,
+      "contact_email": "info@standardgroup.com",
+      "contact_phone": "+254 (0) 123-456-789",
+      "tags": [
+        "family",
+        "games",
+        "entertainment"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hillsong London Live in Nairobi",
+      "description": "Odelia Presents Hillsong London Live in Nairobi! A carefully curated diverse and powerful musical experience that promises to leave audiences full of hope and alive. The line-up will feature a mix of internationally acclaimed artists and local talent, ensuring a blend of familiarity and a fresh musical flavor.",
+      "date": "2023-11-18",
+      "time": "18:00 - 23:59",
+      "venue": "Carnivore Grounds",
+      "location": "Nairobi, Kenya",
+      "host": "ODELIA LIMITED",
+      "image_url": "Images/Hillsong.jpg",
+      "tickets_available": 25,
+      "ticket_price": 10,
+      "contact_email": "info@odelialimited.com",
+      "contact_phone": "+254 (0) 987-654-321",
+      "tags": [
+        "music",
+        "concert",
+        "musical experience"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Gymkhana Dash 5th Edition",
+      "description": "Last leg of the Kenya National Tarmac championship is just around the corner. Venue Naivasha. Join us as we get to see the overall champions of the championship 2023 in AWD and 2wd classes. Special thanks to all partners we have worked with during the course of the year.",
+      "date": "2023-11-19",
+      "time": "06:00 - 23:59",
+      "venue": "WRC Service Park",
+      "location": "Naivasha, Kenya",
+      "host": "Delta Motorsports",
+      "image_url": "Images/Gymkhana.jpg",
+      "tickets_available": 20,
+      "ticket_price": 10,
+      "contact_email": "info@deltamotorsports.com",
+      "contact_phone": "+254 (0) 987-654-321",
+      "tags": [
+        "racing",
+        "championship",
+        "motorsport"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Africa NGO Summit KES",
+      "description": "Join us for the National Council of NGOs Kenya Conference featuring networking, expo, and awards. It's a great opportunity to connect with professionals in the field and learn from experts. Don't miss out on this exciting event!",
+      "date": "2023-11-22",
+      "time": "08:00 AM - 05:00 PM",
+      "venue": "Trademark Hotel",
+      "location": "Nairobi, Kenya",
+      "host": "The National Council of NGOs Kenya",
+      "image_url": "Images/NGO_Summit.jpg",
+      "tickets_available": 25,
+      "ticket_price": 15,
+      "contact_email": "ceo@ngocouncilkenya.org",
+      "contact_phone": "+254 (020) 271-5259",
+      "tags": [
+        "conference",
+        "networking",
+        "expo",
+        "awards"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Auto Trade In Motor Show",
+      "description": "Join us for the Auto Trade In Enterprise Expo, featuring the latest innovations in the automotive industry. Explore a wide range of vehicles, accessories, and services. Don't miss out on this exciting event!",
+      "date": "2023-11-25",
+      "time": "09:00 AM - 11:59 PM",
+      "venue": "Ngong Racecourse",
+      "location": "Nairobi, Kenya",
+      "host": "Auto Trade In Enterprise",
+      "image_url": "Images/Auto trade.jpg",
+      "tickets_available": 20,
+      "ticket_price": 20,
+      "contact_email": "info@autotrade.com",
+      "contact_phone": "+254 (123) 456-7890",
+      "tags": [
+        "auto",
+        "expo"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Forest Challenge 2023",
+      "description": "The Forest Challenge is an initiative of the East African Wild Life Society (EAWLS) in conjunction with Kenya Forest Service (KFS) and Kijabe Environment Volunteers (KENVO). The Challenge is an annual event that aims to create awareness and mobilize resources for the restoration of key water catchment areas in Kenya to improve the livelihoods and resilience to climate change among forest adjacent communities as well as enhance the survival of wildlife. This year’s theme is Reforest for a Resilient Future.\n\nLaunched in 2014, this event provides participants with a unique opportunity to connect with nature, engage in an exhilarating experience, and contribute to the worthy cause of forest conservation. Kenya’s major water catchment areas continue to be degraded at an alarming rate through deforestation and distractive human activities. This has escalated the impacts of climate change and loss of biodiversity. This initiative seeks to counter this harmful trend through raising awareness and forest restoration.",
+      "date": "2023-11-25",
+      "time": "09:00 AM - 06:00 PM",
+      "venue": "Kereita Forest, Aberdare, Kiambu County",
+      "location": "Kereita Forest, Aberdare, Kiambu County",
+      "host": "East African Wild Life Society",
+      "image_url": "Images/Forest challenge.jpg",
+      "tickets_available": 20,
+      "ticket_price": 10,
+      "contact_email": "info@kiambucounty.co.ke",
+      "contact_phone": "+254 (123) 456-7890",
+      "tags": [
+        "environment",
+        "conservation",
+        "awareness"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "The Maze 5th Edition",
+      "description": "The Maze is a city-wide pursuit where you’ll be put up against the odds as well as the other competitors in a treasure-hunt around the city. Winning team gets a weekend holiday!. Teams will make their way from location to location to pick up carefully-hidden clues. En-route to the finish, the competition gets stiffer, and the field is narrowed down to the final few. At the last checkpoint, the Maze will reach a breathtaking finish and the winners crowned champions.",
+      "date": "2023-11-25",
+      "time": "09:00 AM - 02:00 PM",
+      "venue": "The Vineyard Ridgeways",
+      "location": "The Vineyard Ridgeways, Nairobi",
+      "host": "Saka Siri",
+      "image_url": "Images/The maze.jpg",
+      "tickets_available": 250,
+      "ticket_price": 10,
+      "contact_email": "admin@vineyard.co.ke",
+      "contact_phone": "+254 (123) 456-7890",
+      "tags": [
+        "treasure hunt",
+        "competition",
+        "prizes"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pikika Brunch Fest - Christmas Edition 2023",
+      "description": "It’s the Rubis Gas Christmas edition of Pikika Brunch Fest with your favorite chefs turning up the heat! Tantalizing food delights and amazing dishes from top chefs featuring Big Smoke BBQ, HD's Kitchen, Beauty And The Feast, Deeper Than My Kitchen, The Mbuzi Guy, Kaswi Cooks, and loads more! It’s a guaranteed mouthwatering, flavor-filled and delicious journey like no other!\n\nPlus, a fantastic bar & boutique cocktail experience is on hand + music from DJ Panik, DJ Gatmo, Mista DRU & DJ Double Trouble!\n\nCool games range from twister, rodeo bull riding, giant jenga & chess, hula hooping, card games, pop-up shops, eating Olympics, live artwork and more fun activities all day!\n\nDon't miss out on the anniversary edition of this culinary adventure & fun experience! Buy your tickets now and get ready to satisfy your taste buds like never before!",
+      "date": "2023-11-25",
+      "time": "12:00 PM - 11:59 PM",
+      "venue": "Arboretum Gardens",
+      "location": "Nairobi, Kenya",
+      "host": "Pikika Brunch Festival",
+      "image_url": "Images/Pikika Brunch.jpg",
+      "tickets_available": 15,
+      "ticket_price": 20,
+      "contact_email": "education@nairobiarboretum.org",
+      "contact_phone": "+254 (123) 456-7890",
+      "tags": [
+        "brunch",
+        "food festival",
+        "entertainment"
+      ]
+    },
+    {
+      "name": "Tusker Oktoba Fest",
+      "description": "The Ultimate beer festival",
+      "date": "2023-10-27T21:00:00.000Z",
+      "time": "18:00",
+      "venue": "Ngong Race Course",
+      "location": "Nairobi,Kenya",
+      "host": "EABL",
+      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
+      "tickets_available": "25",
+      "ticket_price": "30",
+      "contact_email": "info@eabl.co.ke",
+      "contact_phone": "254712592567",
+      "tags": "[Music, Entertainment, Beer]",
+      "id": 13
+    },
+    {
+      "name": "Tusker Oktoba Fest",
+      "description": "The Ultimate beer festival",
+      "date": "2023-10-27T21:00:00.000Z",
+      "time": "18:00",
+      "venue": "Ngong Race Course",
+      "location": "Nairobi,Kenya",
+      "host": "EABL",
+      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
+      "tickets_available": "20",
+      "ticket_price": "30",
+      "contact_email": "info@eabl.co.ke",
+      "contact_phone": "254712592567",
+      "tags": "[Music, Entertainment, Beer]",
+      "id": 14
+    },
+    {
+      "name": "Muratina Festival",
+      "description": "Promoting local & Natural taste",
+      "date": "2023-11-09T21:00:00.000Z",
+      "time": "10:00",
+      "venue": "Kenol Muranga",
+      "location": "Muranga County",
+      "host": "Moses Kuria",
+      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
+      "tickets_available": "20",
+      "ticket_price": "20",
+      "contact_email": "moseskuria@gmail.com",
+      "contact_phone": "254712456234",
+      "tags": "[Music, Entertainment, Beer]",
+      "id": 15
+    },
+    {
+      "name": "Group 6 Discussion",
+      "description": "The best group",
+      "date": "2023-11-06T21:00:00.000Z",
+      "time": "12:00",
+      "venue": "Online",
+      "location": "Nairobi,Kenya",
+      "host": "Evans Kurgat",
+      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
+      "tickets_available": "6",
+      "ticket_price": "10",
+      "contact_email": "evancherry254@gmail.com",
+      "contact_phone": "254712592567",
+      "tags": "[Coding, tech, python]",
+      "id": 16
+    }
+  ]
+}

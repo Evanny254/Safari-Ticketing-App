@@ -1,0 +1,142 @@
+home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    color: #333;
+    
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .explore-button,
+  .book-button {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .Headers{
+    text-align: center;
+    background-color: #007bff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    font-family: Georgia, ;
+    
+    
+  }
+  .HomeRoute{
+    margin-left: 100px;
+    font-size: larger;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+   
+  }
+.EventsRoute{
+margin-left: 100px;
+font-size: larger;
+padding: 10px 20px;
+cursor: pointer;
+color: white;
+}
+.TicketsRoute{
+    margin-left: 100px;
+    font-size: larger;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+}
+.Create-EventRoute{
+    margin-left: 100px;
+    font-size: larger;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+}
+.EventCard{
+   background-color: rgb(192, 234, 242); 
+   border-radius: 20px;
+   padding-left: 20px;
+   
+}
+ h2{
+    color: black;
+
+ }
+ h3{
+    color: #007bff;
+    font-size: larger;
+    font-family: Gergia;
+    text-align: center;
+
+ }
+ .description{
+    font-family: Gergia;
+
+ }
+ .image{
+   width: 300px;
+   height: 300px;
+   align-items: center;
+
+ }
+ .BtnBuy{
+    background-color: #72a136;
+    color: white;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 70px;
+   
+
+ }
+ .FormHeader{
+  background-color: #72a136;
+  color: white;
+  padding: 10px 20px;
+  font-size: larger;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .Form{
+background-color: antiquewhite;
+border-radius: 20px;
+padding-left: 20px;
+ }
+ .CreateEventBtn{
+  background-color: #72a136;
+    color: white;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 70px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
