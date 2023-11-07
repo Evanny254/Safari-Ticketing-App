@@ -72,17 +72,28 @@ const EventForm = () => {
     <div>
       <h2 className="FormHeader">Create an Event</h2>
       <form className="Form" onSubmit={handleSubmit}>
-        <div>
-          <label>Name:</label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
+      <div>
+      <label>First Name:</label>
+      <input
+        type="text"
+        name="firstName"
+        value={formData.firstName}
+        onChange={handleChange}
+        required
+      />
+    </div>
         <br />
+        <div>
+      <label>Last Name:</label>
+      <input
+        type="text"
+        name="lastName"
+        value={formData.lastName}
+        onChange={handleChange}
+        required
+      />
+    </div>
+      <br/>
         <div>
          <label>Description:</label>
          <textarea
