@@ -214,13 +214,42 @@ home-container {
   background-color: #007bff;
   border-radius: 20px;
   padding: 20px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="number"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
 }
 
 .CreateEventBtn {
   background-color: #72a136;
   color: white;
   padding: 10px 20px;
+  border: none;
   font-size: large;
   border-radius: 20px;
   margin: 10px;
+  cursor: pointer;
+}
+
+.CreateEventBtn:hover {
+  background-color: aqua;
 }
