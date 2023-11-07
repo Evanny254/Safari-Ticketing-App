@@ -1,16 +1,26 @@
 {
+  "messages": [
+    {
+      "id": 1,
+      "text": ""
+    },
+    {
+      "id": 2,
+      "text": ""
+    }
+  ],
   "events": [
     {
       "id": 1,
       "name": "The Scars of Betrayal",
-      "description": "Jabali Christian schools, presents an epic story, a mashup of talent and passion, A Mashujaa Day Production, ready for your taking. Presenting, 'The Scars of Betrayal ' a story of the sacrifice and pain endured by our African heroes and heroines in the struggle for independence. The history of the African continent comes alive through the voices and faces of the cast featuring the unrelenting colonial masters, the brave Mau Mau fighters, the helpless slaves in a thrilling tale of twists and turns. The stage is set, opening doors on Friday 10th November, 2023 @ 2pm and another show at 5pm. By buying this ticket and attending the 'Scars of Betrayal' play, you waive and release any claims you may have relating to the use of recorded media of yourself and your child at the play, including without limitation, any right to inspect or approve the photos, videos, or audio recordings, as well as any claims for invasion of privacy, violation of the right of publicity, defamation, and copyright infringement or for any fees for use of such recorded media. Save the date! Save a Seat!",
+      "description": "Jabali Christian schools, presents an epic story...",
       "date": "2023-12-15",
       "time": "19:00",
       "venue": "Theater Hall",
       "location": "City Center, Example City",
       "image_url": "Images/Jabali.jpg",
       "host": "JABALI CHRISTIAN SCHOOLS",
-      "tickets_available": 15,
+      "tickets_available": 13,
       "ticket_price": 5,
       "contact_email": "talktous@jabali.ac.ke",
       "contact_phone": "+254 (780) 316-000",
@@ -297,7 +307,7 @@
       "location": "Nairobi,Kenya",
       "host": "Evans Kurgat",
       "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
-      "tickets_available": "6",
+      "tickets_available": 5,
       "ticket_price": "10",
       "contact_email": "evancherry254@gmail.com",
       "contact_phone": "254712592567",
