@@ -1,10 +1,18 @@
-home-container {
+.home-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
-    color: #333;
+    color: white;
+    background-image: url(Images/Event3.jpg);
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: georgia;
+    border-radius: 20px;
     
   }
   
@@ -15,6 +23,7 @@ home-container {
   .home-title {
     font-size: 4rem;
     margin-bottom: 20px;
+    
   }
   
   .home-description {
@@ -36,17 +45,18 @@ home-container {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: red;
     border-radius: 10px;
     transition: background-color 0.3s ease;
   }
   .Headers{
     text-align: center;
-    background-color: #007bff;
+    background-color:red;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
-    font-family: Georgia, ;
+    font-family: Georgia ;
+    margin-bottom: 10px;
     
     
   }
