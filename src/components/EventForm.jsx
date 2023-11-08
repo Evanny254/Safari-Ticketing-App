@@ -205,6 +205,7 @@ const EventForm = () => {
              name="contact_email"
              value={formData.contact_email}
              onChange={handleChange}
+             placeholder="example@example.com"
              required
            />
          </div>
