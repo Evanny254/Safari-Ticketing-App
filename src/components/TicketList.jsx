@@ -57,15 +57,22 @@ const TicketList = () => {
     <div>
       <h2>Available Tickets</h2>
       <input
+      className='FilterPage'
         type="text"
-        placeholder="Search for a ticket by event name"
+
+        placeholder="Search by event name"
         value={searchTerm}
         onChange={handleSearchChange}
       />
+      <br />
       {filteredTickets.length > 0 ? (
         filteredTickets.map((ticket) => (
-          <div key={ticket.id}>
+          <div className='TicketCard' key={ticket.id}>
             <h3>{ticket.name}</h3>
+
+            <p>Tickets Available: {ticket.tickets_available}</p>
+            <p>Ticket Price: ${ticket.ticket_price}</p>
+            <img className='TicketImage' src={ticket.image_url} alt={ticket.name} />
             <p>{ticket.description}</p>
             <img src={ticket.image_url} alt={ticket.name} />
             <p>Venue: {ticket.venue}</p>
@@ -77,6 +84,7 @@ const TicketList = () => {
             <button className="BtnBuy" onClick={() => handleBuyTicket(ticket)}>
               Buy Ticket
             </button>
+
           </div>
         ))
       ) : (

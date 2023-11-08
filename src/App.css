@@ -150,44 +150,20 @@ home-container {
   font-family: Georgia;
 }
 
-.HomeRoute,
-.EventsRoute,
-.TicketsRoute,
-.Create-EventRoute {
-  margin-left: 20px;
-  font-size: larger;
-  padding: 10px 20px;
-  cursor: pointer;
-  color: white;
-}
-
 .EventCard {
-  
-
   background-color: #007bff;
   color: white;
   border-radius: 10px;
-  
   margin: 10px;
-
-  
   max-width: 400px;
   float: left;
   width: 500px;
-
   padding: 16px;
   text-align: center;
-  
-
-}
-   
-    
-
-
+  }
 .EventCard h2 {
   color: white;
 }
-
 .EventCard h3 {
   font-size: larger;
   font-family: Georgia;
@@ -196,7 +172,6 @@ home-container {
 .EventCard .description {
   font-family: Georgia;
 }
-
 .EventCard .image {
   width: 100%;
   height: 200px;
@@ -236,6 +211,25 @@ home-container {
   margin: 10px;
 }
 
+.FilterPage{
+  padding: 10px 20px;
+  font-size: large;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: Georgia;
+}
+.TicketImage{
+  width: 200px;
+  height: 200px;
+}
+.TicketCard{
+  border-radius: 20px;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+ display: inline-table;
+ margin-left: 20px;
+}
 input {
   padding: 8px;
   margin: 10px 0;
@@ -246,7 +240,6 @@ input {
   font-size: 16px;
 }
 
-/* Style the button */
 button {
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -256,17 +249,14 @@ button {
   cursor: pointer;
   font-size: 18px;
 }
-
-
 .message-container {
   margin-top: 30px;
   padding-top: 10px;
 }
-
-
 .message {
   margin-bottom: 20px;
   padding: 18px;
   border: 2px solid #ccc;
   border-radius: 6px;
 }
+
