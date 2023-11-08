@@ -1,5 +1,4 @@
 {
-  
   "events": [
     {
       "id": 1,
@@ -11,7 +10,7 @@
       "location": "City Center, Example City",
       "image_url": "Images/Jabali.jpg",
       "host": "JABALI CHRISTIAN SCHOOLS",
-      "tickets_available": 13,
+      "tickets_available": 6,
       "ticket_price": 5,
       "contact_email": "talktous@jabali.ac.ke",
       "contact_phone": "+254 (780) 316-000",
@@ -31,7 +30,7 @@
       "location": "Broadwalk Mall, Example City",
       "host": "Mr and Miss USIU",
       "image_url": "Images/USIU.jpg",
-      "tickets_available": 27,
+      "tickets_available": 26,
       "ticket_price": 3,
       "contact_email": "info@mrmissusiu.com",
       "contact_phone": "+254 (730) 116-000",
@@ -51,7 +50,7 @@
       "location": "Ngong, Kenya",
       "host": "KSPCA",
       "image_url": "Images/KSPCA.jpg",
-      "tickets_available": 49,
+      "tickets_available": 48,
       "ticket_price": 5,
       "contact_email": "info@kspca.org",
       "contact_phone": "+254 (0) 123-456-789",
@@ -111,7 +110,7 @@
       "location": "Nairobi, Kenya",
       "host": "ODELIA LIMITED",
       "image_url": "Images/Hillsong.jpg",
-      "tickets_available": 23,
+      "tickets_available": 22,
       "ticket_price": 10,
       "contact_email": "info@odelialimited.com",
       "contact_phone": "+254 (0) 987-654-321",
@@ -288,6 +287,6 @@
       "contact_phone": "254712456234",
       "tags": "[Music, Entertainment, Beer]",
       "id": 15
-   }
+    }
   ]
 }
