@@ -75,25 +75,12 @@ const EventForm = () => {
       <form className="Form" onSubmit={handleSubmit}>
         <div className="ClientName">
       <div className="FormFN">
-      <label>First Name:</label>
+      <label>Event Name:</label>
       <input
         type="text"
-        name="firstName"
+        name="eventName"
         value={formData.firstName}
         onChange={handleChange}
-        placeholder="John"
-        required
-      />
-    </div>
-        <br />
-        <div className="FormLN">
-      <label>Last Name:</label>
-      <input
-        type="text"
-        name="lastName"
-        value={formData.lastName}
-        onChange={handleChange}
-        placeholder="Doe"
         required
       />
     </div>

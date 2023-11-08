@@ -208,6 +208,9 @@ home-container {
   margin: 0px auto;
   color: rgb(69, 85, 96);
   font-family: Poppins;
+  padding-top: 81px;
+  justify-content: center;
+  border-radius: 20px;
 }
 
 .FormBox {
@@ -236,19 +239,10 @@ home-container {
 .ClientName {
   display: flex;
   min-width: 0px;
-  width: 400px;
+  width: 100%;
+
 }
 
-.FormFN,
-.FormLN {
-  -webkit-box-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-  display: flex;
-  color: rgb(69, 85, 96);
-  font-size: 12px;
-  margin-right: 30px;
-}
 
 label {
   display: block;
@@ -271,6 +265,7 @@ textarea {
 textarea {
   height: 100px;
 }
+
 
 .CreateEventBtn {
   background-color: #72a136;
