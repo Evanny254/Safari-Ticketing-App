@@ -224,3 +224,22 @@ home-container {
   border-radius: 20px;
   margin: 10px;
 }
+.FilterPage{
+  padding: 10px 20px;
+  font-size: large;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: Georgia;
+}
+.TicketImage{
+  width: 200px;
+  height: 200px;
+}
+.TicketCard{
+  border-radius: 20px;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+ display: inline-table;
+ margin-left: 20px;
+}
