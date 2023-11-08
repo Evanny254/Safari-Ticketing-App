@@ -1,4 +1,5 @@
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 .home-container {
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    font-family: georgia;
+    font-family: Poppins;
     border-radius: 20px;
     
   }
@@ -56,7 +57,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
-    font-family: Georgia ;
+    font-family: Poppins;
     margin-bottom: 10px;
     
     
@@ -166,11 +167,11 @@ home-container {
 }
 .EventCard h3 {
   font-size: larger;
-  font-family: Georgia;
+  font-family: Poppins;
 }
 
 .EventCard .description {
-  font-family: Georgia;
+  font-family: Poppins;
 }
 .EventCard .image {
   width: 100%;
@@ -187,6 +188,25 @@ home-container {
   border-radius: 20px;
   margin: 10px;
 }
+
+.FormBigBox {
+  width: 600px;
+  margin: 0px auto;
+  color: rgb(69, 85, 96);
+  font-family: Poppins;
+  padding-top: 81px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.FormBox {
+  box-sizing: border-box;
+  border: 1px solid rgb(241, 245, 246);
+  background-color: rgb(255, 255, 255);
+  box-shadow: aqua;
+  padding: 31px;
+  margin-bottom: 133px;
+}
 .FormHeader {
   background-color: #72a136;
   color: white;
@@ -197,18 +217,55 @@ home-container {
 }
 
 .Form {
-  background-color: antiquewhite;
-  border-radius: 20px;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.842);
+  display: block;
+  margin-top: 0em;
 }
+
+.ClientName {
+  display: flex;
+  min-width: 0px;
+  width: 100%;
+
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="number"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
 
 .CreateEventBtn {
   background-color: #72a136;
   color: white;
   padding: 10px 20px;
+  border: none;
   font-size: large;
   border-radius: 20px;
   margin: 10px;
+  cursor: pointer;
+}
+
+.CreateEventBtn:hover {
+  background-color: aqua;
 }
 
 .FilterPage{
