@@ -17,7 +17,7 @@ const TicketList = () => {
   const handleSearchChange = (e) => {
     const { value } = e.target;
     setSearchTerm(value);
-    setSelectedTicket(null); // Clear the selected ticket when searching
+    setSelectedTicket(null); 
   };
 
   const handleBuyTicket = (event) => {
