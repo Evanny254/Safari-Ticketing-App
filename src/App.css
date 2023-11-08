@@ -1,4 +1,5 @@
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 .home-container {
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    font-family: georgia;
+    font-family: Poppins;
     border-radius: 20px;
     
   }
@@ -56,7 +57,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
-    font-family: Georgia ;
+    font-family: Poppins;
     margin-bottom: 10px;
     
     
@@ -179,11 +180,11 @@ home-container {
 
 .EventCard h3 {
   font-size: larger;
-  font-family: Georgia;
+  font-family: Poppins;
 }
 
 .EventCard .description {
-  font-family: Georgia;
+  font-family: Poppins;
 }
 
 .EventCard .image {
@@ -206,13 +207,14 @@ home-container {
   width: 600px;
   margin: 0px auto;
   color: rgb(69, 85, 96);
+  font-family: Poppins;
 }
 
 .FormBox {
   box-sizing: border-box;
   border: 1px solid rgb(241, 245, 246);
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px;
+  box-shadow: aqua;
   padding: 31px;
   margin-bottom: 133px;
 }
@@ -233,6 +235,19 @@ home-container {
 
 .ClientName {
   display: flex;
+  min-width: 0px;
+  width: 400px;
+}
+
+.FormFN,
+.FormLN {
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  color: rgb(69, 85, 96);
+  font-size: 12px;
+  margin-right: 30px;
 }
 
 label {

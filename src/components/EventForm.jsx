@@ -74,7 +74,7 @@ const EventForm = () => {
       <h2 className="FormHeader">Create an Event</h2>
       <form className="Form" onSubmit={handleSubmit}>
         <div className="ClientName">
-      <div>
+      <div className="FormFN">
       <label>First Name:</label>
       <input
         type="text"
@@ -86,7 +86,7 @@ const EventForm = () => {
       />
     </div>
         <br />
-        <div>
+        <div className="FormLN">
       <label>Last Name:</label>
       <input
         type="text"
