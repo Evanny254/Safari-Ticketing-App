@@ -201,6 +201,20 @@ home-container {
   border-radius: 20px;
   margin: 10px;
 }
+
+.FormBigBox {
+  width: 600px;
+  margin: 0px auto;
+  color: rgb(69, 85, 96);
+}
+.FormBox {
+  box-sizing: border-box;
+  border: 1px solid rgb(241, 245, 246);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px;
+  padding: 31px;
+  margin-bottom: 133px;
+}
 .FormHeader {
   background-color: #72a136;
   color: white;
@@ -211,10 +225,13 @@ home-container {
 }
 
 .Form {
-  background-color: #4d9cf1;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.842);
+  display: block;
+  margin-top: 0em;
+}
+
+.ClientName {
+  display: flex;
 }
 
 label {

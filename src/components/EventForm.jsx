@@ -69,9 +69,11 @@ const EventForm = () => {
   };
 
   return (
-    <div>
+    <div className="FormBigBox">
+      <div className="FormBox">
       <h2 className="FormHeader">Create an Event</h2>
       <form className="Form" onSubmit={handleSubmit}>
+        <div className="ClientName">
       <div>
       <label>First Name:</label>
       <input
@@ -93,6 +95,7 @@ const EventForm = () => {
         required
       />
     </div>
+      </div>
       <br/>
         <div>
          <label>Description:</label>
@@ -235,6 +238,7 @@ const EventForm = () => {
        </button>
 
       </form>
+    </div>
     </div>
   );
 };
