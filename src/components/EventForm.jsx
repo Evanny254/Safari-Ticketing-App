@@ -69,20 +69,23 @@ const EventForm = () => {
   };
 
   return (
-    <div>
+    <div className="FormBigBox">
+      <div className="FormBox">
       <h2 className="FormHeader">Create an Event</h2>
       <form className="Form" onSubmit={handleSubmit}>
-        <div>
-          <label>Name:</label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <br />
+        <div className="ClientName">
+      <div className="FormFN">
+      <label>Event Name:</label>
+      <input
+        type="text"
+        name="eventName"
+        value={formData.firstName}
+        onChange={handleChange}
+        required
+      />
+    </div>
+      </div>
+      <br/>
         <div>
          <label>Description:</label>
          <textarea
@@ -189,6 +192,7 @@ const EventForm = () => {
              name="contact_email"
              value={formData.contact_email}
              onChange={handleChange}
+             placeholder="example@example.com"
              required
            />
          </div>
@@ -224,6 +228,7 @@ const EventForm = () => {
        </button>
 
       </form>
+    </div>
     </div>
   );
 };
