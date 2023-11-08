@@ -81,6 +81,7 @@ const EventForm = () => {
         name="firstName"
         value={formData.firstName}
         onChange={handleChange}
+        placeholder="John"
         required
       />
     </div>
@@ -92,6 +93,7 @@ const EventForm = () => {
         name="lastName"
         value={formData.lastName}
         onChange={handleChange}
+        placeholder="Doe"
         required
       />
     </div>
