@@ -1,14 +1,5 @@
 {
-  "messages": [
-    {
-      "id": 1,
-      "text": ""
-    },
-    {
-      "id": 2,
-      "text": ""
-    }
-  ],
+  
   "events": [
     {
       "id": 1,
@@ -120,7 +111,7 @@
       "location": "Nairobi, Kenya",
       "host": "ODELIA LIMITED",
       "image_url": "Images/Hillsong.jpg",
-      "tickets_available": 25,
+      "tickets_available": 23,
       "ticket_price": 10,
       "contact_email": "info@odelialimited.com",
       "contact_phone": "+254 (0) 987-654-321",
@@ -160,7 +151,7 @@
       "location": "Nairobi, Kenya",
       "host": "The National Council of NGOs Kenya",
       "image_url": "Images/NGO_Summit.jpg",
-      "tickets_available": 25,
+      "tickets_available": 24,
       "ticket_price": 15,
       "contact_email": "ceo@ngocouncilkenya.org",
       "contact_phone": "+254 (020) 271-5259",
@@ -181,7 +172,7 @@
       "location": "Nairobi, Kenya",
       "host": "Auto Trade In Enterprise",
       "image_url": "Images/Auto trade.jpg",
-      "tickets_available": 20,
+      "tickets_available": 19,
       "ticket_price": 20,
       "contact_email": "info@autotrade.com",
       "contact_phone": "+254 (123) 456-7890",
@@ -297,22 +288,6 @@
       "contact_phone": "254712456234",
       "tags": "[Music, Entertainment, Beer]",
       "id": 15
-    },
-    {
-      "name": "Group 6 Discussion",
-      "description": "The best group",
-      "date": "2023-11-06T21:00:00.000Z",
-      "time": "12:00",
-      "venue": "Online",
-      "location": "Nairobi,Kenya",
-      "host": "Evans Kurgat",
-      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
-      "tickets_available": 5,
-      "ticket_price": "10",
-      "contact_email": "evancherry254@gmail.com",
-      "contact_phone": "254712592567",
-      "tags": "[Coding, tech, python]",
-      "id": 16
-    }
+   }
   ]
 }
