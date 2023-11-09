@@ -11,6 +11,14 @@
     {
       "text": "lets hurry up guys",
       "id": 3
+    },
+    {
+      "text": "This App will be amazing give it time",
+      "id": 4
+    },
+    {
+      "text": "Solomon will be interacting with our app",
+      "id": 5
     }
   ],
   "events": [
@@ -24,7 +32,7 @@
       "location": "City Center, Nairobi City",
       "image_url": "Images/Jabali.jpg",
       "host": "JABALI CHRISTIAN SCHOOLS",
-      "tickets_available": 5,
+      "tickets_available": 3,
       "ticket_price": 5,
       "contact_email": "talktous@jabali.ac.ke",
       "contact_phone": "+254 (780) 316-000",
@@ -44,7 +52,7 @@
       "location": "Broadwalk Mall, Example City",
       "host": "Mr and Miss USIU",
       "image_url": "Images/USIU.jpg",
-      "tickets_available": 26,
+      "tickets_available": 24,
       "ticket_price": 3,
       "contact_email": "info@mrmissusiu.com",
       "contact_phone": "+254 (730) 116-000",
@@ -64,7 +72,7 @@
       "location": "Ngong, Kenya",
       "host": "KSPCA",
       "image_url": "Images/KSPCA.jpg",
-      "tickets_available": 48,
+      "tickets_available": 47,
       "ticket_price": 5,
       "contact_email": "info@kspca.org",
       "contact_phone": "+254 (0) 123-456-789",
@@ -253,22 +261,6 @@
         "food festival",
         "entertainment"
       ]
-    },
-    {
-      "name": "Muratina Festival",
-      "description": "Promoting local & Natural taste",
-      "date": "2023-11-09T21:00:00.000Z",
-      "time": "10:00",
-      "venue": "Kenol Muranga",
-      "location": "Muranga County",
-      "host": "Moses Kuria",
-      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
-      "tickets_available": "20",
-      "ticket_price": "20",
-      "contact_email": "moseskuria@gmail.com",
-      "contact_phone": "254712456234",
-      "tags": "[Music, Entertainment, Beer]",
-      "id": 15
     }
   ]
 }
