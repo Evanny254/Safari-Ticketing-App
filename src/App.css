@@ -169,7 +169,42 @@ home-container {
 .EventCard h3 {
   font-size: larger;
   font-family: Poppins;
+}import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer'
+import EventList from './components/EventList';
+import TicketList from './components/TicketList';
+import EventForm from './components/EventForm';
+import Home from './components/Home';
+import './App.css'
+
+
+
+
+function App() {
+return (
+  <Router>
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/events" element={<EventList />} />
+        <Route path="/events/:id" element={<TicketList />} />
+        <Route path="/tickets" element={<TicketList />} />
+        <Route path="/Headers" element={<Header />} />
+        <Route path="/create-event" element={<EventForm />} />
+      </Routes>
+      <Footer />
+    </div>
+  </Router>
+);
 }
+
+
+
+
+export default App;
 
 .EventCard .description {
   font-family: Poppins;
@@ -340,5 +375,22 @@ color: brown;
   padding: 15px;
   text-align: center;
   display: inline-block;
+}
+
+.contact-info {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2.8rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+.copyright {
+font-size: 14px;
+opacity: 0.8;
+text-align: center;
 }
 

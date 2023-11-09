@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Footer from './Footer';
 
 const Home = ({ userRole, events }) => {
   return (
@@ -40,6 +41,7 @@ const Home = ({ userRole, events }) => {
             <p></p>
           )}
         </div>
+        <Footer />
       </div>
     </div>
   );

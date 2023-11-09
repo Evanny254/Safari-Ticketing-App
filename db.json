@@ -7,6 +7,10 @@
     {
       "text": "Nice event",
       "id": 2
+    },
+    {
+      "text": "hello, ",
+      "id": 3
     }
   ],
   "events": [
