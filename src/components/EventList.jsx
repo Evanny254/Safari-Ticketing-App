@@ -16,7 +16,7 @@ const EventList = () => {
   }, []);
 
   const handleEventClick = (event) => {
-    navigate(`/tickets`);
+    setSelectedEvent(event);
   };
 
   return (
