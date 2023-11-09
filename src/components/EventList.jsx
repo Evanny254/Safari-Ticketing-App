@@ -1,8 +1,12 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import TicketList from "./TicketList";
+import { useNavigate } from "react-router";
 
 const EventList = () => {
   const [events, setEvents] = useState([]);
   const [selectedEvent, setSelectedEvent] = useState(null);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("http://localhost:3000/events")
@@ -12,7 +16,7 @@ const EventList = () => {
   }, []);
 
   const handleEventClick = (event) => {
-    setSelectedEvent(event);
+    navigate(`/events/${event.id}`);
   };
 
   return (
