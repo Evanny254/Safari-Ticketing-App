@@ -1,4 +1,14 @@
 {
+  "messages": [
+    {
+      "id": 1,
+      "text": "Exciting event coming up!"
+    },
+    {
+      "text": "Nice event",
+      "id": 2
+    }
+  ],
   "events": [
     {
       "id": 1,
@@ -10,7 +20,7 @@
       "location": "City Center, Example City",
       "image_url": "Images/Jabali.jpg",
       "host": "JABALI CHRISTIAN SCHOOLS",
-      "tickets_available": 6,
+      "tickets_available": 5,
       "ticket_price": 5,
       "contact_email": "talktous@jabali.ac.ke",
       "contact_phone": "+254 (780) 316-000",
@@ -239,38 +249,6 @@
         "food festival",
         "entertainment"
       ]
-    },
-    {
-      "name": "Tusker Oktoba Fest",
-      "description": "The Ultimate beer festival",
-      "date": "2023-10-27T21:00:00.000Z",
-      "time": "18:00",
-      "venue": "Ngong Race Course",
-      "location": "Nairobi,Kenya",
-      "host": "EABL",
-      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
-      "tickets_available": "25",
-      "ticket_price": "30",
-      "contact_email": "info@eabl.co.ke",
-      "contact_phone": "254712592567",
-      "tags": "[Music, Entertainment, Beer]",
-      "id": 13
-    },
-    {
-      "name": "Tusker Oktoba Fest",
-      "description": "The Ultimate beer festival",
-      "date": "2023-10-27T21:00:00.000Z",
-      "time": "18:00",
-      "venue": "Ngong Race Course",
-      "location": "Nairobi,Kenya",
-      "host": "EABL",
-      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
-      "tickets_available": "20",
-      "ticket_price": "30",
-      "contact_email": "info@eabl.co.ke",
-      "contact_phone": "254712592567",
-      "tags": "[Music, Entertainment, Beer]",
-      "id": 14
     },
     {
       "name": "Muratina Festival",
