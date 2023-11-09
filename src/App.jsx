@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import EventList from './components/EventList';
 import TicketList from './components/TicketList';
 import EventForm from './components/EventForm';
@@ -23,6 +24,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
