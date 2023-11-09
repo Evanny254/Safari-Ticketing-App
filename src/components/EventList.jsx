@@ -15,9 +15,10 @@ const EventList = () => {
       .catch((error) => console.error("Error fetching events:", error));
   }, []);
 
-  const handleEventClick = (event) => {
-    setSelectedEvent(event);
-  };
+  const handleEventClick = () => {
+    navigate(`/tickets`);
+
+    };
 
   return (
     <div>
