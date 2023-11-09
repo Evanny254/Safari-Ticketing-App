@@ -7,7 +7,6 @@ const Footer = () => {
         <h4>Contact Us</h4>
         <p>Email: info@safariticket.com</p>
         <p>Phone: (245) 456-7890</p>
-        {/* Add more contact details as needed */}
       </div>
       <div className="copyright">
         <p>&copy; 2023 Safari Tickets. All rights reserved.</p>
