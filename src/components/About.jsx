@@ -8,7 +8,8 @@ const About = () => {
         <img src={AboutBackground} alt="" />
         <img src={AboutBackground} alt="" />
         <img src={AboutBackground} alt="" />
-        
+        <img src={AboutBackground} alt="" />
+
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">
