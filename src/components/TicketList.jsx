@@ -17,7 +17,7 @@ const TicketList = () => {
   const handleSearchChange = (e) => {
     const { value } = e.target;
     setSearchTerm(value);
-    setSelectedTicket(null); 
+    setSelectedTicket(null);
   };
 
   const handleBuyTicket = (event) => {
@@ -49,6 +49,15 @@ const TicketList = () => {
     }
   };
 
+  const handleTicketClick = (ticket) => {
+    setSelectedTicket(ticket);
+  };
+  const formatDate = (dateString) => {
+    const options = { weekday: 'short', day: '2-digit', month: 'short' };
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', options);
+  };
+
   const filteredTickets = tickets.filter((ticket) =>
     ticket.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -57,51 +66,50 @@ const TicketList = () => {
     <div>
       <h2>Available Tickets</h2>
       <input
-      className='FilterPage'
+        className='FilterPage'
         type="text"
-
         placeholder="Search by event name"
         value={searchTerm}
         onChange={handleSearchChange}
       />
       <br />
-      {filteredTickets.length > 0 ? (
-        filteredTickets.map((ticket) => (
-          <div className='TicketCard' key={ticket.id}>
-            <h3>{ticket.name}</h3>
-            <img className='TicketImage' src={ticket.image_url} alt={ticket.name} />
-            {/* <p>{ticket.description}</p> */}
-            <p>Venue: {ticket.venue}</p>
-            <p>Location: {ticket.location}</p>
-            <p>Date: {ticket.date}</p>
-            <p>Time: {ticket.time}</p>
-            <p>Tickets Available: {ticket.tickets_available}</p>
-            <p>Ticket Price: ${ticket.ticket_price}</p>
-            <button className="BtnBuy" onClick={() => handleBuyTicket(ticket)}>
-              Buy Ticket
-            </button>
-
-          </div>
-        ))
+      {selectedTicket ? (
+        <div>
+          <h3>{selectedTicket.name}</h3>
+          <img className="TicketImage"src={selectedTicket.image_url} alt={selectedTicket.name} />
+          <p>Venue: {selectedTicket.venue}</p>
+          <p>Location: {selectedTicket.location}</p>
+          <p>Date: {selectedTicket.date}</p>
+          <p>Time: {selectedTicket.time}</p>
+          <p>Tickets Available: {selectedTicket.tickets_available}</p>
+          <p>Ticket Price: ${selectedTicket.ticket_price}</p>
+          <p>Description: ${selectedTicket.description}</p>
+          <button className="BtnBuy" onClick={() => handleBuyTicket(selectedTicket)}>
+            Buy Ticket
+          </button>
+          <button className="GoBackBtn"onClick={() => setSelectedTicket(null)}>Go Back</button>
+        </div>
       ) : (
-        selectedTicket ? (
-          <div>
-            <h3>{selectedTicket.name}</h3>
-            <p>{selectedTicket.description}</p>
-            <img src={selectedTicket.image_url} alt={selectedTicket.name} />
-            <p>Venue: {selectedTicket.venue}</p>
-            <p>Location: {selectedTicket.location}</p>
-            <p>Date: {selectedTicket.date}</p>
-            <p>Time: {selectedTicket.time}</p>
-            <p>Tickets Available: {selectedTicket.tickets_available}</p>
-            <p>Ticket Price: ${selectedTicket.ticket_price}</p>
-            <button className="BtnBuy" onClick={() => handleBuyTicket(selectedTicket)}>
-              Buy Ticket
-            </button>
-          </div>
-        ) : (
-          <p>No tickets found.</p>
-        )
+        <div>
+          {filteredTickets.length > 0 ? (
+            filteredTickets.map((ticket) => (
+              <div
+                className="TicketCard"
+                key={ticket.id}
+                onClick={() => handleTicketClick(ticket)}
+              >
+                <img className="TicketImage" src={ticket.image_url} alt={ticket.name} />
+                <p>{formatDate(ticket.date)}</p>
+                <h3>{ticket.name}</h3>
+               
+
+                
+              </div>
+            ))
+          ) : (
+            <p>No tickets found.</p>
+          )}
+        </div>
       )}
     </div>
   );

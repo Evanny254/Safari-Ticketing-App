@@ -7,6 +7,10 @@
     {
       "text": "Nice event",
       "id": 2
+    },
+    {
+      "text": "lets hurry up guys",
+      "id": 3
     }
   ],
   "events": [
@@ -17,7 +21,7 @@
       "date": "2023-12-15",
       "time": "19:00",
       "venue": "Theater Hall",
-      "location": "City Center, Example City",
+      "location": "City Center, Nairobi City",
       "image_url": "Images/Jabali.jpg",
       "host": "JABALI CHRISTIAN SCHOOLS",
       "tickets_available": 5,

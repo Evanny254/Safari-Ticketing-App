@@ -118,15 +118,6 @@ color: white;
     color: black;
  }
 
-home-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f7f7f7;
-  color: #333;
-}
-
 .home-content {
   text-align: center;
 }
@@ -340,5 +331,8 @@ color: brown;
   padding: 15px;
   text-align: center;
   display: inline-block;
+}
+.GoBackBtn{
+  margin-left: 20px;
 }
 
