@@ -64,12 +64,21 @@
   }
   .HomeRoute{
     margin-left: 100px;
+    margin-right: 50px;
     font-size: larger;
     padding: 10px 20px;
     cursor: pointer;
     color: white;
    
   }
+  .AboutRoute{
+    font-size: larger;
+    padding:50px;
+    padding:10px;
+    cursor:pointer;
+    color: white;
+  }
+
 .EventsRoute{
 margin-left: 100px;
 font-size: larger;
@@ -77,6 +86,7 @@ padding: 10px 20px;
 cursor: pointer;
 color: white;
 }
+
 .TicketsRoute{
     margin-left: 100px;
     font-size: larger;
@@ -84,6 +94,7 @@ color: white;
     cursor: pointer;
     color: white;
 }
+
 .Create-EventRoute{
     margin-left: 100px;
     font-size: larger;
@@ -91,15 +102,18 @@ color: white;
     cursor: pointer;
     color: white;
 }
+
 .EventCard{
    background-color: rgb(192, 234, 242); 
    border-radius: 20px;
    padding-left: 20px;
    
 }
+
  h2{
     color: black;
  }
+
 home-container {
   display: flex;
   justify-content: center;
@@ -161,10 +175,12 @@ home-container {
   width: 500px;
   padding: 16px;
   text-align: center;
-  }
+}
+
 .EventCard h2 {
   color: white;
 }
+
 .EventCard h3 {
   font-size: larger;
   font-family: Poppins;
@@ -173,6 +189,7 @@ home-container {
 .EventCard .description {
   font-family: Poppins;
 }
+
 .EventCard .image {
   width: 100%;
   height: 200px;
@@ -207,6 +224,7 @@ home-container {
   padding: 31px;
   margin-bottom: 133px;
 }
+
 .FormHeader {
   background-color: #72a136;
   color: white;
@@ -275,10 +293,12 @@ textarea {
   margin: 10px;
   font-family: Georgia;
 }
+
 .TicketImage{
   width: 200px;
   height: 200px;
 }
+
 .TicketCard{
   border-radius: 20px;
   background-color: antiquewhite;
@@ -287,6 +307,7 @@ textarea {
  display: inline-table;
  margin-left: 20px;
 }
+
 input {
   padding: 8px;
   margin: 10px 0;
@@ -306,10 +327,12 @@ button {
   cursor: pointer;
   font-size: 18px;
 }
+
 .message-container {
   margin-top: 30px;
   padding-top: 10px;
 }
+
 .message {
   margin-bottom: 20px;
   padding: 18px;
