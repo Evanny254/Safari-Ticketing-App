@@ -7,7 +7,9 @@ const Header = () => {
    <header className='Headers'>
      <nav>
       
-            <Link to="/" className='HomeRoute'><img width="50" height="50" src="https://img.icons8.com/50/000000/home.png" alt="home"/></Link>
+            <Link to="/" className='HomeRoute'><img width="40" height="40" src="https://img.icons8.com/50/000000/home.png" alt="home"/></Link>
+
+            <Link to="/about" className='AboutRoute'>About</Link>
           
             <Link to="/events" className='EventsRoute'>Events</Link>
          
