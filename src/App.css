@@ -102,28 +102,17 @@ color: white;
     cursor: pointer;
     color: white;
 }
-<<<<<<< HEAD
 .ChatRoute{
   margin-left: 100px;
     font-size: larger;
     padding: 10px 20px;
     cursor: pointer;
     color: white;
-=======
-
-.EventCard{
-   background-color: rgb(192, 234, 242); 
-   border-radius: 20px;
-   padding-left: 20px;
-   
->>>>>>> 6411854d1197cde3ab52e50ad541a353b3432973
 }
 
  h2{
     color: black;
  }
-<<<<<<< HEAD
-=======
 
 home-container {
   display: flex;
@@ -133,7 +122,6 @@ home-container {
   background-color: #f7f7f7;
   color: #333;
 }
->>>>>>> 6411854d1197cde3ab52e50ad541a353b3432973
 
 .home-content {
   text-align: center;
@@ -159,11 +147,7 @@ home-container {
 }
 
 .EventCard {
-<<<<<<< HEAD
   background-color: orange;
-=======
-  background-color: #989ea3;
->>>>>>> 6411854d1197cde3ab52e50ad541a353b3432973
   color: white;
   border-radius: 10px;
   margin: 10px;

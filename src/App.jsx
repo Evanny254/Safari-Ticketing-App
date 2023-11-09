@@ -6,6 +6,7 @@ import TicketList from './components/TicketList';
 import EventForm from './components/EventForm';
 import Home from './components/Home';
 import Chat from './components/Chat';
+import About from './components/About'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Headers" element={<Header />} />
           <Route path="/create-event" element={<EventForm />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>
