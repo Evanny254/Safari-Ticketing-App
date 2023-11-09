@@ -79,7 +79,7 @@ const EventForm = () => {
       <input
         type="text"
         name="eventName"
-        value={formData.firstName}
+        value={formData.eventName}
         onChange={handleChange}
         required
       />
