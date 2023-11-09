@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Home = ({ userRole, events }) => {
   return (
@@ -41,7 +42,9 @@ const Home = ({ userRole, events }) => {
           )}
         </div>
       </div>
+      <Footer/>
     </div>
+    
   );
 };
 

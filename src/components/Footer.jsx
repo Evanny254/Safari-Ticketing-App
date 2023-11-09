@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-      <footer>
+      <footer className="Footer">
          <div className="contact-info">
         <h4>Contact Us</h4>
         <p>Email: info@safariticket.com</p>

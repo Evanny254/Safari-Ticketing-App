@@ -19,6 +19,7 @@
     margin: 0;
     font-family: Poppins;
     border-radius: 20px;
+    flex-direction: column;
     
   }
   
@@ -77,9 +78,8 @@
   }
   .AboutRoute{
     font-size: larger;
-    padding:50px;
-    padding:10px;
-    cursor:pointer;
+    padding: 10px 20px;
+    cursor: pointer;
     color: white;
   }
 
@@ -106,14 +106,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* margin-top: 500px; */
+   
   }
 
   .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
     color: #221f1f;
     line-height: 5rem; 
-    max-width: 600px;
+    
     margin-top: -60px;
     text-align: center;
   }
@@ -179,7 +179,7 @@ color: white;
   text-align: center;
 }
 .home-events-header{
-  color: #4CAF50;
+  color: orange;
 }
 
 .home-title {
@@ -383,7 +383,6 @@ color: brown;
   border-radius: 20px;
   margin: 10px;
   max-width: 400px;
-  /* float: left; */
   width: 500px;
   padding: 15px;
   text-align: center;
@@ -392,4 +391,8 @@ color: brown;
 .GoBackBtn{
   margin-left: 20px;
 }
-
+.Footer{
+  /* color: yellow; */
+  font-size: larger;
+  font-family: Georgia,;
+}

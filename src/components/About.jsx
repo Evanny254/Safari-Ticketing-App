@@ -1,15 +1,12 @@
 import React from "react";
-import AboutBackground from "../assets/AboutBackground.png";
+import Footer from "./Footer";
+
 
 const About = () => {
-  return (
+    return (
+    
     <div className="about-section-container">
       <div className="about-background-image-container">
-        <img src={AboutBackground} alt="" />
-        <img src={AboutBackground} alt="" />
-        <img src={AboutBackground} alt="" />
-        <img src={AboutBackground} alt="" />
-
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">
@@ -36,8 +33,9 @@ const About = () => {
 
         </p>
         </div>
+        <Footer/>
       </div>
-  );
+    );
 };
 
 export default About;

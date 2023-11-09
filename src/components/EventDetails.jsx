@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const EventDetails = ({ event }) => {
+const EventDetails = ({event}) => {
   const handleBuyTicket = () => {
   };
 
