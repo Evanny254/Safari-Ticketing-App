@@ -25,19 +25,19 @@ const Home = ({ userRole, events }) => {
           )}
         </div>
         <div className="home-events">
-          <h2>Upcoming Events</h2>
+          <h2 className="home-events-header">Upcoming Events</h2>
           {events && events.length > 0 ? (
             <div className="events-list">
               {events.map((event) => (
                 <div key={event.id} className="event-card">
                   <h3>{event.name}</h3>
                   <p>{event.description}</p>
-                  {/* Render other event details */}
+                 
                 </div>
               ))}
             </div>
           ) : (
-            <p>No events available</p>
+            <p></p>
           )}
         </div>
       </div>

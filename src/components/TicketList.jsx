@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const TicketList = () => {
   const [tickets, setTickets] = useState([]);
@@ -69,12 +69,8 @@ const TicketList = () => {
         filteredTickets.map((ticket) => (
           <div className='TicketCard' key={ticket.id}>
             <h3>{ticket.name}</h3>
-
-            <p>Tickets Available: {ticket.tickets_available}</p>
-            <p>Ticket Price: ${ticket.ticket_price}</p>
             <img className='TicketImage' src={ticket.image_url} alt={ticket.name} />
-            <p>{ticket.description}</p>
-            <img src={ticket.image_url} alt={ticket.name} />
+            {/* <p>{ticket.description}</p> */}
             <p>Venue: {ticket.venue}</p>
             <p>Location: {ticket.location}</p>
             <p>Date: {ticket.date}</p>

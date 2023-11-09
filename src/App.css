@@ -91,26 +91,22 @@ color: white;
     cursor: pointer;
     color: white;
 }
-.EventCard{
-   background-color: rgb(192, 234, 242); 
-   border-radius: 20px;
-   padding-left: 20px;
-   
+.ChatRoute{
+  margin-left: 100px;
+    font-size: larger;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
 }
  h2{
     color: black;
  }
-home-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f7f7f7;
-  color: #333;
-}
 
 .home-content {
   text-align: center;
+}
+.home-events-header{
+  color: #4CAF50;
 }
 
 .home-title {
@@ -129,37 +125,15 @@ home-container {
   justify-content: center;
 }
 
-.explore-button,
-.book-button {
-  display: inline-block;
-  padding: 20px 30px;
-  font-size: 1.2rem;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.Headers {
-  text-align: center;
-  background-color: #007bff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 20px;
-  font-family: Georgia;
-}
-
 .EventCard {
-  background-color: #007bff;
+  background-color: orange;
   color: white;
   border-radius: 10px;
   margin: 10px;
   max-width: 400px;
   float: left;
   width: 500px;
-  padding: 16px;
+  padding: 15px;
   text-align: center;
   }
 .EventCard h2 {
@@ -228,8 +202,6 @@ home-container {
   width: 100%;
 
 }
-
-
 label {
   display: block;
   font-weight: bold;
@@ -315,5 +287,24 @@ button {
   padding: 18px;
   border: 2px solid #ccc;
   border-radius: 6px;
+}
+.EventImage{
+  width: 100%;
+  height: 300px;
+}
+.deleteTitle{
+color: brown;
+}
+.EventAction{
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+  max-width: 400px;
+  /* float: left; */
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
 }
 

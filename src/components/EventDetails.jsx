@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const EventDetails = ({ event }) => {
   const handleBuyTicket = () => {
-    // Implement ticket purchase logic here
   };
 
   return (

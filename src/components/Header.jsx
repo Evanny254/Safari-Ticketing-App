@@ -13,7 +13,9 @@ const Header = () => {
          
             <Link to="/tickets" className='TicketsRoute'>Tickets</Link>
          
-            <Link to="/create-event" className='Create-EventRoute'>Create Event</Link>
+            <Link to="/create-event" className='Create-EventRoute'>Admin</Link>
+
+            <Link to="/chat" className='ChatRoute'>Chat</Link>
          
       </nav>
     </header>

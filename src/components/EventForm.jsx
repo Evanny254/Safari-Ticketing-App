@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import EventActions from "./EventActions";
 
 const EventForm = () => {
   const initialFormData = {
@@ -67,8 +68,13 @@ const EventForm = () => {
         console.error("Error:", error);
       });
   };
+  
+  
 
   return (
+    <div>
+    <EventActions />
+   
     <div className="FormBigBox">
       <div className="FormBox">
       <h2 className="FormHeader">Create an Event</h2>
@@ -228,6 +234,8 @@ const EventForm = () => {
        </button>
 
       </form>
+    </div>
+    
     </div>
     </div>
   );

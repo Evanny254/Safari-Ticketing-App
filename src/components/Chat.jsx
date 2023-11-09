@@ -1,31 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import io from 'socket.io-client';
+import { useState, useEffect } from 'react';
 
 const Chat = () => {
+  const [showChat, setShowChat] = useState(false);
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState('');
-  const socket = io('http://localhost:3001'); 
 
   useEffect(() => {
-    socket.on('chat message', (msg) => {
-      setMessages([...messages, msg]);
-    });
-  }, [messages, socket]);
+    fetch('http://localhost:3000/messages')
+      .then((response) => response.json())
+      .then((data) => setMessages(data))
+      .catch((error) => console.error('Error fetching messages:', error));
+  }, []);
 
   const sendMessage = () => {
-    socket.emit('chat message', message);
-    setMessage('');
+    if (message.trim() !== '') {
+      fetch('http://localhost:3000/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: message }),
+      })
+        .then((response) => response.json())
+        .then((data) => setMessages([...messages, data]))
+        .catch((error) => console.error('Error sending message:', error));
+
+      setMessage('');
+    }
   };
 
   return (
     <div>
-      <ul>
-        {messages.map((msg, index) => (
-          <li key={index}>{msg}</li>
-        ))}
-      </ul>
-      <input value={message} onChange={(e) => setMessage(e.target.value)} />
-      <button onClick={sendMessage}>Send</button>
+      <button onClick={() => setShowChat(!showChat)}>
+        {showChat ? 'Hide Chat' : 'Show Chat'}
+      </button>
+      {showChat && (
+        <div>
+          <ul>
+            {messages.map((msg) => (
+              <li key={msg.id}>{msg.text}</li>
+            ))}
+          </ul>
+          <input value={message} onChange={(e) => setMessage(e.target.value)} />
+          <button onClick={sendMessage}>Send</button>
+        </div>
+      )}
     </div>
   );
 };
