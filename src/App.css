@@ -83,6 +83,63 @@
     color: white;
   }
 
+  .about-content{
+    text-align: center;
+    color: orange;
+   
+  }
+
+  .about-section-container {
+    margin-top: 20rem;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .about-background-image-container {
+    position:calc();
+    left: 500px;
+    z-index: -5;
+    align-items: center;
+  }
+
+  .about-section-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 500px; */
+  }
+
+  .primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #221f1f;
+    line-height: 5rem; 
+    max-width: 600px;
+    margin-top: -60px;
+    text-align: center;
+  }
+
+    .primary-text {
+    font-size: clamp(1rem, 1.9vw, 1.5rem);
+    max-width: 700px;
+    color: #221f1f;
+    margin: 1 rem 0rem;
+  }
+
+  .primary-subheading {
+    margin-top: -370px;
+    font-weight: 700;
+    text-align:right;
+    color: #fe9e0d;
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  .about-section-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 .EventsRoute{
 margin-left: 100px;
 font-size: larger;
