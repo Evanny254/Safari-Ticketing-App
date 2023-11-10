@@ -100,10 +100,7 @@ const TicketList = () => {
               >
                 <img className="TicketImage" src={ticket.image_url} alt={ticket.name} />
                 <p>{formatDate(ticket.date)}</p>
-                <h3>{ticket.name}</h3>
-               
-
-                
+                <h3>{ticket.name}</h3> 
               </div>
             ))
           ) : (
