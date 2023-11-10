@@ -92,7 +92,7 @@
       "location": "Kasarani, Kenya",
       "host": "RX MOTORSPORT KENYA MANAGEMENT LTD",
       "image_url": "Images/RX Mtosport.jpg",
-      "tickets_available": 10,
+      "tickets_available": 9,
       "ticket_price": 10,
       "contact_email": "info@rxmotorsportkenya.com",
       "contact_phone": "+254 (0) 987-654-321",
@@ -232,7 +232,7 @@
       "location": "The Vineyard Ridgeways, Nairobi",
       "host": "Saka Siri",
       "image_url": "Images/The maze.jpg",
-      "tickets_available": 250,
+      "tickets_available": 248,
       "ticket_price": 10,
       "contact_email": "admin@vineyard.co.ke",
       "contact_phone": "+254 (123) 456-7890",
@@ -252,7 +252,7 @@
       "location": "Nairobi, Kenya",
       "host": "Pikika Brunch Festival",
       "image_url": "Images/Pikika Brunch.jpg",
-      "tickets_available": 3,
+      "tickets_available": 2,
       "ticket_price": 20,
       "contact_email": "education@nairobiarboretum.org",
       "contact_phone": "+254 (123) 456-7890",
@@ -261,6 +261,22 @@
         "food festival",
         "entertainment"
       ]
+    },
+    {
+      "name": "",
+      "description": "The Ultimate beer festival",
+      "date": "2023-11-10T21:00:00.000Z",
+      "time": "18:30",
+      "venue": "Ngong Race Course",
+      "location": "Nairobi,Kenya",
+      "host": "EABL",
+      "image_url": "https://i0.wp.com/businesstoday.co.ke/wp-content/uploads/2019/09/IMG_8-scaled.jpg",
+      "tickets_available": 199,
+      "ticket_price": "2000",
+      "contact_email": "info@eabl.co.ke",
+      "contact_phone": "254712592567",
+      "tags": "[Music, Entertainment, Beer]",
+      "id": 13
     }
   ]
 }
